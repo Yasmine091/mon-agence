@@ -1,7 +1,7 @@
     footer {
+        font-size: 0.5em;
         position: absolute;
         bottom: 0;
-        text-align: center;
         left: 0;
         right: 0;
     }
@@ -9,15 +9,26 @@
     .info {
         display: flex;
         flex-direction: row;
+        flex-grow: 4;
+        flex-shrink: 4;
+        color: white;
+        background-color: rgb(68, 67, 67);
     }
     
     .direct {
+        flex-direction: column;
         display: inline-block;
+        margin: 5%;
+        padding: 5%;
     }
     
-    ul {
-        flex-direction: column;
-        justify-content: center;
+    .title {
+        font-weight: 900;
+        color: green;
+    }
+    
+    .art {
+        flex-grow: 4;
     }
     
     .copyright {
@@ -27,7 +38,9 @@
         font-style: italic;
         font-weight: 600;
         background-color: rgb(236, 236, 236);
-        box-shadow: 0px -10px 10px rgb(236, 236, 236);
+        box-shadow: 0px -5px 10px rgb(236, 236, 236);
+        padding-left: 5%;
+        padding-right: 5%;
     }
     
     li {
