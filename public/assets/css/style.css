@@ -58,3 +58,39 @@
         color: red;
         transition: 0.5s;
     }
+    
+    .nav-extended {
+        background-color: gray;
+        font-weight: bold;
+    }
+    
+    .nav-content {
+        background-color: red;
+        font-weight: bold;
+        justify-content: space-around;
+        font-family: sans-serif;
+    }
+    
+    a:link {
+        color: black;
+    }
+    
+    a:visited {
+        color: black;
+    }
+    
+    a:active {
+        color: black;
+    }
+    
+    .logo {
+        position: absolute;
+        left: 4%;
+        top: 20%;
+        width: 13%;
+    }
+    
+    .logo img {
+        width: 100%;
+        height: auto;
+    }

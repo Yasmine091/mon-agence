@@ -1,30 +1,30 @@
 {
-  "name": "mon-agence",
-  "version": "1.0.0",
-  "description": "* https://alexpeg.gitlab.io/mon-agence/",
-  "main": "scripts.js",
-  "dependencies": {
-    "autoprefixer": "^10.0.4",
-    "materialize-css": "^1.0.0-rc.2",
-    "postcss": "^8.1.10",
-    "postcss-cli": "^8.3.0"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "sass": "^1.29.0"
-  },
-  "scripts": {
-    "start": "parcel public/index.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@gitlab.com/AlexPeg/mon-agence.git"
-  },
-  "author": "Alexandre, Florian, Yasmine",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/AlexPeg/mon-agence/issues"
-  },
-  "homepage": "https://gitlab.com/AlexPeg/mon-agence#readme",
-  "keywords": []
+    "name": "mon-agence",
+    "version": "1.0.0",
+    "description": "* https://alexpeg.gitlab.io/mon-agence/",
+    "main": "scripts.js",
+    "dependencies": {
+        "autoprefixer": "^10.0.4",
+        "materialize-css": "^1.0.0-rc.2",
+        "postcss": "^8.1.10",
+        "postcss-cli": "^8.3.0"
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.12.4",
+        "sass": "^1.29.0"
+    },
+    "scripts": {
+        "start": "parcel public/index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@gitlab.com/AlexPeg/mon-agence.git"
+    },
+    "author": "Alexandre, Florian, Yasmine",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/AlexPeg/mon-agence/issues"
+    },
+    "homepage": "https://gitlab.com/AlexPeg/mon-agence#readme",
+    "keywords": []
 }
