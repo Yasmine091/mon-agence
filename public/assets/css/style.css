@@ -55,12 +55,11 @@
     }
     
     a:hover {
-        color: red;
         transition: 0.5s;
     }
     
     .nav-extended {
-        background-color: gray;
+        color: white;
         font-weight: bold;
     }
     
@@ -93,4 +92,8 @@
     .logo img {
         width: 100%;
         height: auto;
+    }
+    
+    .nav-contact ul li {
+        margin: 0 15px;
     }
