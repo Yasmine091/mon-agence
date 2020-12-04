@@ -1,9 +1,4 @@
-function supportsImports() {
-    return 'import' in document.createElement('link');
-}
-
-if (supportsImports()) {
-    // Good to go!
-} else {
-    // Use other libraries/require systems to load files.
-}
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, open);
+});
