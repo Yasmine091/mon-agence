@@ -1,7 +1,107 @@
-.text-olive {
-    color: rgb(191, 233, 74);
-}
-
-.bg-yellow {
-    background-color: rgb(255, 234, 45);
-}
+                        .exp {
+                            padding-top: 2.5rem;
+                            .exp-title {
+                                position: absolute;
+                                left: 25%;
+                                right: 25%;
+                                padding: 0 !important;
+                                margin: 0 !important;
+                                h3 {
+                                    padding: 0.5rem !important;
+                                    margin: 0 !important;
+                                    text-transform: uppercase;
+                                }
+                            }
+                            #Experience {
+                                padding: 0.5rem;
+                                margin: 1.25rem auto !important;
+                                .row {
+                                    margin: auto !important;
+                                    margin-bottom: 0px !important;
+                                    padding: 2rem 1rem;
+                                    width: auto !important;
+                                    .contain {
+                                        max-width: 100%;
+                                    }
+                                }
+                                .col {
+                                    margin: auto !important;
+                                    img {
+                                        height: 100%;
+                                        max-height: 200px;
+                                    }
+                                }
+                            }
+                        }
+                        
+                        .width-xl {
+                            width: 94% !important;
+                        }
+                        
+                        .width-full {
+                            width: 100% !important;
+                        }
+                        
+                        .exp-zone {
+                            padding-top: 2rem !important;
+                            h2 {
+                                text-transform: uppercase;
+                                font-size: 3rem;
+                            }
+                            .lamp {
+                                width: 100%;
+                                max-width: 200px !important;
+                            }
+                        }
+                        
+                        #Banniere {
+                            h1 {
+                                font-weight: bolder;
+                                font-size: 4rem;
+                            }
+                            h2 {
+                                text-transform: uppercase;
+                                font-weight: bolder;
+                                font-size: 2.6rem;
+                                padding-bottom: 0rem;
+                                margin-bottom: 0.5rem;
+                            }
+                            h3 {
+                                font-weight: bolder;
+                                font-size: 2.4rem;
+                                padding-top: 0rem;
+                                margin-top: 0.5rem;
+                            }
+                            .logo:nth-child(2n) {
+                                height: 100%;
+                                max-height: auto;
+                                width: 100%;
+                                max-width: 200px;
+                                padding-bottom: 2rem;
+                                margin-left: 2rem;
+                            }
+                            .logo:nth-child(2n+1) {
+                                height: 100%;
+                                max-height: auto;
+                                width: 100%;
+                                max-width: 100px;
+                                padding-top: 2rem;
+                                margin-right: 2rem;
+                            }
+                            .logo-lg {
+                                max-width: 300px !important;
+                            }
+                            .logo-md {
+                                max-width: 125px !important;
+                            }
+                            .logo-sm {
+                                max-width: 75px !important;
+                            }
+                        }
+                        
+                        .banner {
+                            border-top: 0.6rem solid gray;
+                            border-bottom: 0.6rem solid gray;
+                            background-image: url('./img/slider-1.jpg');
+                            object-fit: contain;
+                        }
