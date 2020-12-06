@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 // Header : Navigation
 header {
     .logo-a {
@@ -74,6 +73,13 @@ main {
             }
         }
     }
+    div.col-spacers {
+        display: none;
+        margin: 2rem auto !important;
+        border-top: 1rem dotted #0000004a;
+        width: 100%;
+        height: auto;
+    }
     .width-xl {
         width: 94% !important;
     }
@@ -141,6 +147,71 @@ main {
         border-bottom: 0.6rem solid gray;
         background-image: url('./img/slider-1.jpg');
         object-fit: contain;
+    }
+}
+
+@media screen and (max-width:720px) {
+    main {
+        .width-xl {
+            width: 100% !important;
+        }
+        #Banniere {
+            h1 {
+                font-weight: bolder;
+                font-size: 3rem;
+                text-align: left;
+            }
+            h2 {
+                text-transform: uppercase;
+                font-weight: bolder;
+                font-size: 2.3rem;
+                text-align: left;
+                padding-bottom: 0rem;
+                margin-bottom: 0.5rem;
+            }
+            h3 {
+                font-weight: bolder;
+                font-size: 2rem;
+                padding-top: 0rem;
+                text-align: left;
+                margin-top: 0.5rem;
+            }
+            .logo {
+                height: 100%;
+                max-height: auto;
+                width: 100%;
+                max-width: 12rem;
+                display: inline-block;
+            }
+            .logo-lg {
+                max-width: 12rem !important;
+                margin-left: 1rem !important;
+                padding-bottom: 2rem !important;
+            }
+            .logo-md {
+                max-width: 8rem !important;
+            }
+            .logo-presta {
+                max-width: 12rem !important;
+                margin-left: 0 !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:990px) {
+    main {
+        #Experience.width-xl {
+            width: 100% !important;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    main {
+        div.col-spacers {
+            display: flex !important;
+        }
     }
 }
 
@@ -216,3 +287,14 @@ footer {
         }
     }
 }
+
+.drag-target {
+    display: none;
+}
+
+.sidenav-overlay {
+    display: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
