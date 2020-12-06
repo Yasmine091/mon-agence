@@ -1,9 +1,10 @@
     @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
-    .page-footer {
+    .pf {
         padding-top: 0;
         padding-bottom: 0;
         font-family: 'DM Serif Display', sans-serif;
         margin: auto;
+        width: 100%;
     }
     
     .info {
@@ -33,7 +34,7 @@
         margin: 0;
     }
     
-    .page-footer .footer-copyright {
+    .pf .footer-copyright {
         padding-top: 0;
     }
     
